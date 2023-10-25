@@ -44,6 +44,7 @@ dependencies:
   fluttertoast: ^8.2.2
   snackbar: ^1.0.2
   animated_text_kit: ^4.2.2
+  intl: ^0.18.1
 
 
 dev_dependencies:

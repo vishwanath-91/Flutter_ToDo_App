@@ -43,9 +43,9 @@ class _SignInPageState extends State<SignInPage> {
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: TextFormField(
-                      key: const ValueKey("email"),
+                      key: const ValueKey("Email"),
                       decoration: InputDecoration(
-                          hintText: "email",
+                          hintText: "Email",
                           border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(10))),
                       validator: (value) {
@@ -65,9 +65,9 @@ class _SignInPageState extends State<SignInPage> {
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: TextFormField(
-                      key: const ValueKey("password"),
+                      key: const ValueKey("Password"),
                       decoration: InputDecoration(
-                          hintText: "password",
+                          hintText: "Password",
                           border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(10))),
                       validator: (value) {
